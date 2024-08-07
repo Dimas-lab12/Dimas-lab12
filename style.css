@@ -1,0 +1,21 @@
+form {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    background: #f4f4f4;
+    border-radius: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #2a9d8f;
+    color: white;
+    cursor: pointer;
+}
