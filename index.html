@@ -1,130 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Index</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            padding: 20px;
-            background:url(dems.jpg);
-            color: black;
-        }
-        h1 {
-            text-align: center;
-            font-size: bold;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        a {
-            text-decoration: none;
-            color: #333;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            color: #007bff;
-        }
-        .anjay a{
-            margin-left: 12%;
-        }
-        .navbar {
-            justify-content: space-between;
-        }
-
-        table {
-            margin: 2rem;
-            padding: 2px;
-            border-radius: 10px;
-        }
-        .two {
-            margin-left:  40%;
-            margin-top: -63px;
-        }
-
-        .One {
-            margin-left:  80%;
-            margin-top: -21.6rem;
-        }
-        .navbar img {
-            width: 200px;
-            height: auto;
-        }
-
-        .extra a {
-            color: #af5353;
-            
-        }
-        .extra {
-            margin-left: 30px;
-        }
-
-        .close {
-            margin-top: 100px;
-        }
-
-        .navbar table {
-            background-color: white;
-        }
-
-        h1 {
-            background-color: white;
-            border-radius: 10px 10px 20px 20px;
-        }
-    </style>
+    <title>Website Saya</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>selamat datang di web dimas-lab12</h1>
-    <nav class="navbar">
-    <table border="1">
-            <tr>
-                <td>Sisi Buruk Suku Baduy</td>
-              
-            </tr>
-            <tr>
+    <header>
+        <h1>Selamat Datang di Website Saya</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                <td><img src="sisi  buruk suku baduyy.jpg" alt="poto"></td>
-                
+    <section id="home">
+        <h2>Beranda</h2>
+        <p>Ini adalah bagian beranda dari website saya.</p>
+    </section>
 
-            <tr>
+    <section id="about">
+        <h2>Tentang</h2>
+        <p>Di sini kamu bisa mengetahui lebih banyak tentang saya.</p>
+    </section>
 
-            </tr>
-                 <td>
-                <a href="sisi_buruksukubaduy.html"><button>sisi buruk suku baduy</button></a>
-                
-                 </td>
-            </tr>
-        </table>
-        <table border="1" class="One">
-            <tr>
-                <td>Sisi baik suku baduy</td>
-            </tr>
-            <tr>
-                <td><img src="OIP.jpg" alt="Baik"></td>
-                
-            </tr>
-            <tr>
-                <td>
-                    <a href="sisi-baik-suku-baduy.html"><button>sisi baik suku baduy</button></a>
-                </td>
-            </tr>
-        </table>
-        <table border="1" class="two">
-            <tr>
-                <td><a href="login.html">Sisi Baik Dan Buruk Suku Baduy</a></td>
-            </tr>
-        </table>
-    </nav>
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Hubungi saya melalui email di <a href="mailto:email@example.com">email@example.com</a>.</p>
+    </section>
 
-    
-
-    </div>
+    <footer>
+        <p>&copy; 2024 Website Saya. Semua hak dilindungi.</p>
+    </footer>
 </body>
 </html>
